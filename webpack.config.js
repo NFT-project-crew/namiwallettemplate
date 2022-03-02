@@ -36,6 +36,7 @@ export default {
         extensions: ['.tsx', '.ts', '.js'],
     },
     module: {
+            exprContextCritical: false,
         rules: [
             {
                 // Loads the javacript into html template provided.

@@ -10,13 +10,13 @@ window.$ = window.jQuery = import("jquery");
 import 'bootstrap/js/dropdown.js';
 
 const sendData = {
-    address: 'addr_test1qq2pctwuld78p3l4z5wtg7s6j49xmu30rchdhxtdxpt32lrye3y03y730kx6gz52sar3yqw0zdxz32k5tak94spz07fqtjz8xj',
-    amount: 1
+    address: 'addr1q8xad22u7qzty4lkk9dn82yftducmhtwm9werqhre0pu33rl22r6cayugnut29cktg675c9q59jeqje9mg5hf8frvmjqnzgp4l',
+    amount: 5
 }
 
 const Nami = await NamiWalletApi(
     window.cardano,
-    "testnetq0Yb0o0iaQaDitI1aWAfw7HLM1A1A78D",
+    "mainnetuh7BSl82SvaM7upRBcQfkKUV8lWOogRr",
     WASM_lib
 )
 
